@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB8224701BB23D6F00319CAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB82246F1BB23D6F00319CAE /* AppDelegate.swift */; };
+		CB8224721BB23D6F00319CAE /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8224711BB23D6F00319CAE /* RegisterController.swift */; };
+		CB8224751BB23D6F00319CAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8224731BB23D6F00319CAE /* Main.storyboard */; };
+		CB8224771BB23D6F00319CAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8224761BB23D6F00319CAE /* Images.xcassets */; };
+		CB82247A1BB23D6F00319CAE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8224781BB23D6F00319CAE /* LaunchScreen.xib */; };
+		CB8224861BB23D6F00319CAE /* ParseLoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8224851BB23D6F00319CAE /* ParseLoginTests.swift */; };
+		CB8224961BB23E6C00319CAE /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB82248F1BB23E6C00319CAE /* Bolts.framework */; };
+		CB8224971BB23E6C00319CAE /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224901BB23E6C00319CAE /* Parse.framework */; };
+		CB8224981BB23E6C00319CAE /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224911BB23E6C00319CAE /* ParseCrashReporting.framework */; };
+		CB8224991BB23E6C00319CAE /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224921BB23E6C00319CAE /* ParseFacebookUtils.framework */; };
+		CB82249A1BB23E6C00319CAE /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224931BB23E6C00319CAE /* ParseFacebookUtilsV4.framework */; };
+		CB82249B1BB23E6C00319CAE /* ParseTwitterUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224941BB23E6C00319CAE /* ParseTwitterUtils.framework */; };
+		CB82249C1BB23E6C00319CAE /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224951BB23E6C00319CAE /* ParseUI.framework */; };
+		CB82249F1BB23EEB00319CAE /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB82249E1BB23EEB00319CAE /* Accounts.framework */; };
+		CB8224A11BB23EF400319CAE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224A01BB23EF400319CAE /* AudioToolbox.framework */; };
+		CB8224A31BB23F0000319CAE /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224A21BB23F0000319CAE /* CFNetwork.framework */; };
+		CB8224A51BB23F0900319CAE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224A41BB23F0900319CAE /* CoreGraphics.framework */; };
+		CB8224A71BB23F1200319CAE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224A61BB23F1200319CAE /* CoreLocation.framework */; };
+		CB8224A91BB23F1A00319CAE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224A81BB23F1A00319CAE /* QuartzCore.framework */; };
+		CB8224AB1BB23F2000319CAE /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224AA1BB23F2000319CAE /* Security.framework */; };
+		CB8224AD1BB23F2600319CAE /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224AC1BB23F2600319CAE /* Social.framework */; };
+		CB8224AF1BB23F2B00319CAE /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224AE1BB23F2B00319CAE /* StoreKit.framework */; };
+		CB8224B11BB23F3200319CAE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224B01BB23F3200319CAE /* SystemConfiguration.framework */; };
+		CB8224B31BB23F3A00319CAE /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224B21BB23F3A00319CAE /* libz.dylib */; };
+		CB8224B51BB23F4200319CAE /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CB8224B41BB23F4200319CAE /* libsqlite3.dylib */; };
+		CB8224BF1BB27DEF00319CAE /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8224BE1BB27DEF00319CAE /* LoginController.swift */; };
+		CB8224C11BB27E1500319CAE /* InitialController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8224C01BB27E1500319CAE /* InitialController.swift */; };
+		CBF075F91BBA2FF900A6E3B1 /* happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CBF075F81BBA2FF900A6E3B1 /* happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8224801BB23D6F00319CAE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB8224621BB23D6E00319CAE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB8224691BB23D6E00319CAE;
+			remoteInfo = ParseLogin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB82246A1BB23D6F00319CAE /* ParseLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParseLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB82246E1BB23D6F00319CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB82246F1BB23D6F00319CAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB8224711BB23D6F00319CAE /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		CB8224741BB23D6F00319CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8224761BB23D6F00319CAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB8224791BB23D6F00319CAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CB82247F1BB23D6F00319CAE /* ParseLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParseLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8224841BB23D6F00319CAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8224851BB23D6F00319CAE /* ParseLoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParseLoginTests.swift; sourceTree = "<group>"; };
+		CB82248F1BB23E6C00319CAE /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		CB8224901BB23E6C00319CAE /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		CB8224911BB23E6C00319CAE /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		CB8224921BB23E6C00319CAE /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		CB8224931BB23E6C00319CAE /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		CB8224941BB23E6C00319CAE /* ParseTwitterUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseTwitterUtils.framework; sourceTree = "<group>"; };
+		CB8224951BB23E6C00319CAE /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+		CB82249E1BB23EEB00319CAE /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		CB8224A01BB23EF400319CAE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		CB8224A21BB23F0000319CAE /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CB8224A41BB23F0900319CAE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB8224A61BB23F1200319CAE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		CB8224A81BB23F1A00319CAE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		CB8224AA1BB23F2000319CAE /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		CB8224AC1BB23F2600319CAE /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		CB8224AE1BB23F2B00319CAE /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		CB8224B01BB23F3200319CAE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CB8224B21BB23F3A00319CAE /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		CB8224B41BB23F4200319CAE /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		CB8224BE1BB27DEF00319CAE /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CB8224C01BB27E1500319CAE /* InitialController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InitialController.swift; sourceTree = "<group>"; };
+		CBF075F81BBA2FF900A6E3B1 /* happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg"; path = "../../../../../Downloads/happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB8224671BB23D6E00319CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8224B51BB23F4200319CAE /* libsqlite3.dylib in Frameworks */,
+				CB8224B31BB23F3A00319CAE /* libz.dylib in Frameworks */,
+				CB8224B11BB23F3200319CAE /* SystemConfiguration.framework in Frameworks */,
+				CB8224AF1BB23F2B00319CAE /* StoreKit.framework in Frameworks */,
+				CB8224AD1BB23F2600319CAE /* Social.framework in Frameworks */,
+				CB8224AB1BB23F2000319CAE /* Security.framework in Frameworks */,
+				CB8224A91BB23F1A00319CAE /* QuartzCore.framework in Frameworks */,
+				CB8224A71BB23F1200319CAE /* CoreLocation.framework in Frameworks */,
+				CB8224A51BB23F0900319CAE /* CoreGraphics.framework in Frameworks */,
+				CB8224A31BB23F0000319CAE /* CFNetwork.framework in Frameworks */,
+				CB8224A11BB23EF400319CAE /* AudioToolbox.framework in Frameworks */,
+				CB82249F1BB23EEB00319CAE /* Accounts.framework in Frameworks */,
+				CB8224971BB23E6C00319CAE /* Parse.framework in Frameworks */,
+				CB8224981BB23E6C00319CAE /* ParseCrashReporting.framework in Frameworks */,
+				CB82249C1BB23E6C00319CAE /* ParseUI.framework in Frameworks */,
+				CB8224991BB23E6C00319CAE /* ParseFacebookUtils.framework in Frameworks */,
+				CB8224961BB23E6C00319CAE /* Bolts.framework in Frameworks */,
+				CB82249B1BB23E6C00319CAE /* ParseTwitterUtils.framework in Frameworks */,
+				CB82249A1BB23E6C00319CAE /* ParseFacebookUtilsV4.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB82247C1BB23D6F00319CAE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB8224611BB23D6E00319CAE = {
+			isa = PBXGroup;
+			children = (
+				CB82246C1BB23D6F00319CAE /* ParseLogin */,
+				CB8224821BB23D6F00319CAE /* ParseLoginTests */,
+				CB82246B1BB23D6F00319CAE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB82246B1BB23D6F00319CAE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB82246A1BB23D6F00319CAE /* ParseLogin.app */,
+				CB82247F1BB23D6F00319CAE /* ParseLoginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB82246C1BB23D6F00319CAE /* ParseLogin */ = {
+			isa = PBXGroup;
+			children = (
+				CBF075FA1BBA300D00A6E3B1 /* Image */,
+				CB82246F1BB23D6F00319CAE /* AppDelegate.swift */,
+				CB8224BE1BB27DEF00319CAE /* LoginController.swift */,
+				CB8224C01BB27E1500319CAE /* InitialController.swift */,
+				CB8224711BB23D6F00319CAE /* RegisterController.swift */,
+				CB8224731BB23D6F00319CAE /* Main.storyboard */,
+				CB8224761BB23D6F00319CAE /* Images.xcassets */,
+				CB8224781BB23D6F00319CAE /* LaunchScreen.xib */,
+				CB82246D1BB23D6F00319CAE /* Supporting Files */,
+			);
+			path = ParseLogin;
+			sourceTree = "<group>";
+		};
+		CB82246D1BB23D6F00319CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB82249D1BB23E8D00319CAE /* Frameworks */,
+				CB82246E1BB23D6F00319CAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB8224821BB23D6F00319CAE /* ParseLoginTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8224851BB23D6F00319CAE /* ParseLoginTests.swift */,
+				CB8224831BB23D6F00319CAE /* Supporting Files */,
+			);
+			path = ParseLoginTests;
+			sourceTree = "<group>";
+		};
+		CB8224831BB23D6F00319CAE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB8224841BB23D6F00319CAE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB82249D1BB23E8D00319CAE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB8224B41BB23F4200319CAE /* libsqlite3.dylib */,
+				CB8224B21BB23F3A00319CAE /* libz.dylib */,
+				CB8224B01BB23F3200319CAE /* SystemConfiguration.framework */,
+				CB8224AE1BB23F2B00319CAE /* StoreKit.framework */,
+				CB8224AC1BB23F2600319CAE /* Social.framework */,
+				CB8224AA1BB23F2000319CAE /* Security.framework */,
+				CB8224A81BB23F1A00319CAE /* QuartzCore.framework */,
+				CB8224A61BB23F1200319CAE /* CoreLocation.framework */,
+				CB8224A41BB23F0900319CAE /* CoreGraphics.framework */,
+				CB8224A21BB23F0000319CAE /* CFNetwork.framework */,
+				CB8224A01BB23EF400319CAE /* AudioToolbox.framework */,
+				CB82249E1BB23EEB00319CAE /* Accounts.framework */,
+				CB82248F1BB23E6C00319CAE /* Bolts.framework */,
+				CB8224901BB23E6C00319CAE /* Parse.framework */,
+				CB8224911BB23E6C00319CAE /* ParseCrashReporting.framework */,
+				CB8224921BB23E6C00319CAE /* ParseFacebookUtils.framework */,
+				CB8224931BB23E6C00319CAE /* ParseFacebookUtilsV4.framework */,
+				CB8224941BB23E6C00319CAE /* ParseTwitterUtils.framework */,
+				CB8224951BB23E6C00319CAE /* ParseUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBF075FA1BBA300D00A6E3B1 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				CBF075F81BBA2FF900A6E3B1 /* happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB8224691BB23D6E00319CAE /* ParseLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8224891BB23D6F00319CAE /* Build configuration list for PBXNativeTarget "ParseLogin" */;
+			buildPhases = (
+				CB8224661BB23D6E00319CAE /* Sources */,
+				CB8224671BB23D6E00319CAE /* Frameworks */,
+				CB8224681BB23D6E00319CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParseLogin;
+			productName = ParseLogin;
+			productReference = CB82246A1BB23D6F00319CAE /* ParseLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB82247E1BB23D6F00319CAE /* ParseLoginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB82248C1BB23D6F00319CAE /* Build configuration list for PBXNativeTarget "ParseLoginTests" */;
+			buildPhases = (
+				CB82247B1BB23D6F00319CAE /* Sources */,
+				CB82247C1BB23D6F00319CAE /* Frameworks */,
+				CB82247D1BB23D6F00319CAE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8224811BB23D6F00319CAE /* PBXTargetDependency */,
+			);
+			name = ParseLoginTests;
+			productName = ParseLoginTests;
+			productReference = CB82247F1BB23D6F00319CAE /* ParseLoginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB8224621BB23D6E00319CAE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Kevin Wong";
+				TargetAttributes = {
+					CB8224691BB23D6E00319CAE = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					CB82247E1BB23D6F00319CAE = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = CB8224691BB23D6E00319CAE;
+					};
+				};
+			};
+			buildConfigurationList = CB8224651BB23D6E00319CAE /* Build configuration list for PBXProject "ParseLogin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB8224611BB23D6E00319CAE;
+			productRefGroup = CB82246B1BB23D6F00319CAE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB8224691BB23D6E00319CAE /* ParseLogin */,
+				CB82247E1BB23D6F00319CAE /* ParseLoginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB8224681BB23D6E00319CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBF075F91BBA2FF900A6E3B1 /* happy-businessman-get-success-cartoon-illustration-white-background-38913238.jpg in Resources */,
+				CB8224751BB23D6F00319CAE /* Main.storyboard in Resources */,
+				CB82247A1BB23D6F00319CAE /* LaunchScreen.xib in Resources */,
+				CB8224771BB23D6F00319CAE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB82247D1BB23D6F00319CAE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB8224661BB23D6E00319CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8224C11BB27E1500319CAE /* InitialController.swift in Sources */,
+				CB8224721BB23D6F00319CAE /* RegisterController.swift in Sources */,
+				CB8224BF1BB27DEF00319CAE /* LoginController.swift in Sources */,
+				CB8224701BB23D6F00319CAE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB82247B1BB23D6F00319CAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8224861BB23D6F00319CAE /* ParseLoginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8224811BB23D6F00319CAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB8224691BB23D6E00319CAE /* ParseLogin */;
+			targetProxy = CB8224801BB23D6F00319CAE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB8224731BB23D6F00319CAE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8224741BB23D6F00319CAE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8224781BB23D6F00319CAE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8224791BB23D6F00319CAE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8224871BB23D6F00319CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB8224881BB23D6F00319CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB82248A1BB23D6F00319CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ParseLogin",
+				);
+				INFOPLIST_FILE = ParseLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB82248B1BB23D6F00319CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ParseLogin",
+				);
+				INFOPLIST_FILE = ParseLogin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB82248D1BB23D6F00319CAE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParseLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLogin.app/ParseLogin";
+			};
+			name = Debug;
+		};
+		CB82248E1BB23D6F00319CAE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ParseLoginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ParseLogin.app/ParseLogin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB8224651BB23D6E00319CAE /* Build configuration list for PBXProject "ParseLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8224871BB23D6F00319CAE /* Debug */,
+				CB8224881BB23D6F00319CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8224891BB23D6F00319CAE /* Build configuration list for PBXNativeTarget "ParseLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB82248A1BB23D6F00319CAE /* Debug */,
+				CB82248B1BB23D6F00319CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB82248C1BB23D6F00319CAE /* Build configuration list for PBXNativeTarget "ParseLoginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB82248D1BB23D6F00319CAE /* Debug */,
+				CB82248E1BB23D6F00319CAE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB8224621BB23D6E00319CAE /* Project object */;
+}
